@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNama"
+        android:hint="Nama Barang"/>
+
+    <Spinner
+        android:id="@+id/spinnerLab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d11f08"
+        android:entries="@array/android_layout_arrays"
+        android:padding="5dp" />
+
+
+    <Spinner
+        android:id="@+id/spinnerKategori"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d11f08"
+        android:entries="@array/android_kategori_arrays"
+        android:padding="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDesk"
+        android:hint="Deksripsi"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:hint="Tanggal Ditemukan"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/editTextNimAsisten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:inputType="number"
+        android:maxLength="10"
+        android:ems="10"
+        android:hint="NIM Asisten" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNamaAsisten"
+        android:inputType="textPersonName"
+        android:hint="Nama Asisten" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Barang Hilang"
+        android:id="@+id/buttonAdd" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Barang Hilang"
+        android:id="@+id/buttonView" />
+
+</LinearLayout>

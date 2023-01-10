@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">baranghilang</string>
+        <string-array name="android_layout_arrays">
+            <item>Pilih Lab</item>
+            <item>Lab 01</item>
+            <item>Lab 02</item>
+            <item>Lab 04</item>
+            <item>Lab 05</item>
+            <item>Lab 06</item>
+            <item>Lab 07</item>
+            <item>Lab 08</item>
+            <item>Lab 09</item>
+            <item>Lab 10</item>
+            <item>Lab 11</item>
+            <item>Lab 12</item>
+            <item>Lab 14</item>
+        </string-array>
+
+    <string name="app_name1">baranghilang</string>
+    <string-array name="android_kategori_arrays">
+        <item>Pilih Kategori</item>
+        <item>Elektronik</item>
+        <item>Alat Tulis</item>
+        <item>Aksesoris</item>
+        <item>Pakaian</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>
